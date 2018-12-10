@@ -97,17 +97,17 @@ a{
     text-decoration:none;
     color:grey;
 }
-h2{
-    text-decoration: underline;
-     
-}
+
 .third a{
     display:inline;color: gray;
     font-size:25px;
-    margin: 0 5px;
+   
     text-align: center;
 
 }
 .third{
     text-align: center;
+}
+#pi{
+    color:white;
 }
