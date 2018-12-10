@@ -101,7 +101,7 @@ a{
 .third a{
     display:inline;color: gray;
     font-size:25px;
-   
+    margin: 0 5px;
     text-align: center;
 
 }
