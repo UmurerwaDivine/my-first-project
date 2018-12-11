@@ -60,10 +60,12 @@ a:hover{
 }     
 
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("img/code.jpeg");background-repeat: no-repeat;background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("img/code.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 p,li{
-    color: gray;font-style: italic;
+    color: darkgray;font-style: italic;
 }  
 h2,h1,h4,h3{
     color:white;
@@ -95,11 +97,11 @@ li{
 
 a{
     text-decoration:none;
-    color:grey;
+    color:darkgrey;
 }
 
 .third a{
-    display:inline;color: gray;
+    display:inline;color: darkgrey;
     font-size:25px;
     margin: 0 5px;
     text-align: center;
@@ -109,5 +111,9 @@ a{
     text-align: center;
 }
 #pi{
+    color:white;
+}
+.angellist{
+    font-size:48px;
     color:white;
 }
