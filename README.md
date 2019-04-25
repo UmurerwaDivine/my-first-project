@@ -24,7 +24,7 @@ Umurerwa Divine
 ### link to live site on GitHub Pages
 
 ```
-https://github.com/UmurerwaDivine/my-first-project
+https://umurerwadivine.github.io/my-first-project/
 ```
 
 
