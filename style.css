@@ -1,4 +1,4 @@
-#home{
+ #home{
     font-family: 'Dancing Script', cursive;
     color:white
 
@@ -60,7 +60,7 @@ a:hover{
 .second h2{
     /* display:inline; */
     /* padding:90px; */
-    color: black;
+     color: black;
     font-size: 25px;
     text-align: center;
 }     
@@ -94,16 +94,16 @@ h5{
     top:0px;
     padding-bottom:0 0 20px;
     
-}
+} 
 
-/* img{
+ img{
     width: 30px;
     height:20px;
-} */
-/* li{
+} 
+ li{
     padding: 5px;
     
-} */
+} 
 
 a{
     text-decoration:none;
@@ -156,8 +156,8 @@ li{
 }
 .fifth{
     text-align: center;
-}
-html, body, div, span, applet, object, iframe,
+}  
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -177,9 +177,9 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
     scroll-behavior: smooth;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -204,3 +204,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    z-index: 99;
+
+}
+header ul li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 40px;
+    visibility: hidden;
+}
+.fixed{
+   position: fixed;
+   top:0;
+   left: 0;
+   background-color: #000000;
+   z-index: 999; 
+}
+section{
+    padding: 60px 0;
+    height: 100px;
+    position: relative;
+}
+.home{
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    background: url(img/code.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #34495e;
+    background-attachment: fixed;
+    z-index: 9;
+
+}
+img{
+    width: 380px;
+    height:220px;
+}
+.home h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    text-shadow: 0 15px 20px #000000;
+    margin-bottom: 0;
+    visibility: hidden;
+} */
