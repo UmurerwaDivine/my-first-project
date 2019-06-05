@@ -1,7 +1,7 @@
-  #hello{
+#hello{
     font-family: 'Dancing Script', cursive;
-    color:white
-
+    color:white;
+    font-size: 40px;
 }
 
 .dvn>h1{
@@ -13,7 +13,7 @@
 }
 .to{
     text-align:center;
-   padding-top: 100px;
+   /* padding-top: 100px; */
     font-style: bold;
     font-size: 60px;
     color:white;
@@ -35,8 +35,12 @@
     color:white;
 }
 .angellist{
-    font-size:48px;
+    font-size:40px;
     color:white;
+}
+.dvn{
+   padding-top: 55%;
+    
 }
 
 .scroll-downs {
@@ -161,8 +165,8 @@ section{
 .home{
     color: #ffffff;
     padding: 0;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
     display: flex;
     align-items: flex-end;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code.jpeg');background-repeat:no-repeat;
@@ -179,11 +183,11 @@ section{
 
 
 .home h1{
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     text-shadow: 20px 15px 20px #000000;
-    margin-bottom: 15px;
-    padding: 30px;
+    margin-bottom: 10px;
+    padding: 25px;
     visibility: hidden;
 } 
 .home h5{
@@ -195,7 +199,8 @@ section{
     display: inline-block;
     letter-spacing: 2px;
     border-spacing: 2px;
-    visibility: hidden;   
+    visibility: hidden;
+    padding: 25px;   
 }
 .section-title{
     text-align: center;
@@ -231,7 +236,7 @@ section{
 }
 .service .service-info{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 50px 0;
 }
 .service .col{
@@ -302,4 +307,7 @@ margin-bottom: 15px;
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase
+}
+.name{
+    margin-right: 70%;
 }
